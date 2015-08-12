@@ -28,3 +28,33 @@ body{
         text-align: center;
           align-items: center;
       }
+ /* unvisited link */
+nav a{
+   
+}
+nav a:link, a:link{
+    color: #FFFDE7;
+    position: center
+}
+
+/* visited link */
+nav a:visited, a:visited{
+    color: #FFFDE7;
+    position: center
+}
+
+/* mouse over link */
+nav a:hover, a:hover{
+    color: #FFFDE7;
+    position: center
+}
+
+/* selected link */
+nav a:active, a:active{
+    color: white ;
+    position: center
+} 
+
+footer, hr{
+   position: center;
+}
