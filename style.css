@@ -28,7 +28,7 @@ body{
         text-align: center;
          
       }
-      a target" align-items: center;>
+     
  /* unvisited link */
 nav a{
    
@@ -47,13 +47,13 @@ nav a:visited, a:visited{
 /* mouse over link */
 nav a:hover, a:hover{
     color: #FFFDE7;
-    position: center
+    position: center;
 }
 
 /* selected link */
 nav a:active, a:active{
     color: white ;
-    position: center
+    position: center;
 } 
 
 footer, hr,img {
