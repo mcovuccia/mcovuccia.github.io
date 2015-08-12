@@ -10,3 +10,21 @@ body{
             background-image: url(https://covuccia.smugmug.com/M/i-2qqFWsf/0/X2/05.%20Yoga-X2.png);
       background-size: cover;
     }
+
+   h1 {
+      color: #FFFDE7;
+      font: 90px 'Londrina Outline', normal;
+      text-align: center;
+      
+      
+    } 
+      
+       h2 {
+      color: #FFFDE7;
+      font: 50px 'Otro', sans-serif;
+      text-align: center;
+       }
+      P {
+        text-align: center;
+          align-items: center;
+      }
