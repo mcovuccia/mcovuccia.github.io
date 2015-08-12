@@ -3,5 +3,10 @@
    text-align: center;
    }
    
-body {
-     background-color: GhostWhite;
+body{
+      background-color: pink; 
+         color: #FFFDE7;
+         font-family: 'Quicksand', normal;
+            background-image: url(https://covuccia.smugmug.com/M/i-2qqFWsf/0/X2/05.%20Yoga-X2.png);
+      background-size: cover;
+    }
