@@ -1,34 +1,43 @@
 <!doctype html>
 <head>
   <style>
-    body {
-     background-color: GhostWhite;
-    color: #212121;
-    background-image: url(http://static.tumblr.com/gbp47xv/awem45dz2/background2.0.jpg);
-    font: 25px 'Nothing You Could Do', cursive;
-    background-size: cover;
-    text-align: center;
+    body{
+      background-color: pink; 
+         color:#FFFDE7 ;
+         font-family: 'PT Sans Narrow', sans-serif;
+         background-image: url(http://covuccia.smugmug.com/M/i-2qqFWsf/0/X2/05.%20Yoga-X2.png);
+      background-size: cover;
+    }
+     
+        
+         h1 {
+      color: #FFFDE7;
+      font: 90px 'Codystar', normal;
+      text-align: center;
+         }
+      h2 {
+      color: #FFFDE7;
+      font: 50px 'PT Sans Narrow', normal;
+      text-align: flex-start;
+    } 
+    
+    p{
+       color: #FFFDE7;
+       font-family: 'PT Sans Narrow', sans-serif;
+      text-align: flex-start;
     }
     
-    h1 {
-      color: MidnightBlue;
-      font: 70px 'Fredericka the Great', cursive;
-      text-align: center;
-    }
-    
-    h2 {
-     color: MidnightBlue;
-     font: 40px 'Nothing You Could Do', cursive;
-      text-align: center;
-    }
-  
-  </style>
+         
+         
+    </style>
 </head>
-<body>
-  <link href='http://fonts.googleapis.com/css?family=Nothing+You+Could+Do' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Fredericka+the+Great' rel='stylesheet' type='text/css'>
-  <nav>
-<a href="index.html"> Home </a> | <a href= "about.html"> About Me </a> | <a href= "contact.html"> Contact </a> 
-</nav>
-<title> Contacts </title>
-<h1> Contact <h1>
+<link href='http://fonts.googleapis.com/css?family=Londrina+Outline' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Codystar' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css'>
+
+<a href="/index.html"><img src="http://covuccia.smugmug.com/M/i-qTJ5QmC/0/Ti/home160-Ti.png"width="50" height="50"></a>|
+ <a href="about.html"><img src="https://covuccia.smugmug.com/M/i-2WKBn6t/0/Th/Untitled-5-Th.png"width="50" height="50"></a>
+<center><h1>CONTACT</h1></center>
+<center><p>For More Information</p></center>
+<center><p>marialauracovuccia@gmail.com<p></center>
+<center><p>You can also follow my personal accounts!<p></center>
