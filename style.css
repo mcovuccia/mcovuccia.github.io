@@ -31,17 +31,18 @@ body{
      
  /* unvisited link */
 nav a{
+    position: center;
    
 }
 nav a:link, a:link{
     color: #FFFDE7;
-    position: center
+    position: center;
 }
 
 /* visited link */
 nav a:visited, a:visited{
     color: #FFFDE7;
-    position: center
+    position: center;
 }
 
 /* mouse over link */
