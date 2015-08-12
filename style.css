@@ -26,8 +26,9 @@ body{
        }
       P {
         text-align: center;
-          align-items: center;
+         
       }
+      a target" align-items: center;>
  /* unvisited link */
 nav a{
    
@@ -55,6 +56,6 @@ nav a:active, a:active{
     position: center
 } 
 
-footer, hr{
+footer, hr,img src{
    position: center;
 }
