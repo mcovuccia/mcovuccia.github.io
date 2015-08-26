@@ -72,8 +72,8 @@ footer, hr,img {
   background:      -o-linear-gradient(90deg, #24C6DC 10%, #514A9D 90%); /* Opera 11.10+ */
   background:         linear-gradient(90deg, #24C6DC 10%, #514A9D 90%); /* W3C */
   
-      height: 250px;
-    width: 100%;   
+      height: 150px;
+    width: 50%;   
 }
 section a{
     color: #FFF;
