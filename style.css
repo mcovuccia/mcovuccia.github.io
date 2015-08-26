@@ -87,10 +87,15 @@ section {
   position: relative;
 }
 
-section a{
-  width: 300px;
-  height: 25px;
-  padding: 20px;
+
+ section a {
+    color: #FFF;
+    border: 1px solid #FFF;
+    padding: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 3px;
+}
 
   position: absolute;
   top: 50%;
