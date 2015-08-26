@@ -86,10 +86,8 @@ width: 100%;
   text-decoration: none;
   text-transform: uppercase;
   border-radius: 3px;
-}
-
-#see {
   position: relative;
+  text-align:center;
 }
 
 #see a {
