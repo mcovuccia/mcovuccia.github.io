@@ -90,3 +90,14 @@ footer, hr{
    position: center;
 }
  
+table {
+   position: center;
+}
+#content {
+   margin: 0px auto;
+   width: 50%;
+}
+#content table {
+   width: 100%;
+   text-align: center;
+}
