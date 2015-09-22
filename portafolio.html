@@ -6,63 +6,28 @@
     <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="style.css">
   
- <style>
-  table {
-  border: 1px solid rgb(255, 255, 255);
-    border-spacing: 6;
-    text-align: center;
-    width: 150px;
-  }
+ <link href='https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.2.1/css/lightgallery.css' rel="stylesheet">
+  <link href='style.css' rel='stylesheet'>
+  <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.2.1/js/lightgallery.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $("#lightgallery").lightGallery(); 
+    });
+</script>    
+<style>
     #content {
   margin: 0px auto;
-  width: 100%;
-  height: 0px auto;
-  text-align: center;
-}
+  width: 50%;}
+  
 #content table {
-  width: 0px auto;
-  height: 0px auto;
+  width: 100%;
   text-align: center;
 }
-  th {
-    background-color: #D1C4E9;
-  }
-tr:nth-child(6) {
-    font-size: 20px;
-  }  
-  tr:nth-child(5) {
-    height:60px;
-  }
-tr:nth-child(2) {
-    text-transform: uppercase;
-} 
-ul {
-  text-align: left;
+.lg-outer{
+  text-align: left;!important
 }
-.btn {
-  background: #5F2C82;
-  background: -webkit-linear-gradient(90deg, #5f2c82 10%, #49a09d 90%); /* Chrome 10+, Saf5.1+ */
-  background:    -moz-linear-gradient(90deg, #5f2c82 10%, #49a09d 90%); /* FF3.6+ */
-  background:     -ms-linear-gradient(90deg, #5f2c82 10%, #49a09d 90%); /* IE10 */
-  background:      -o-linear-gradient(90deg, #5f2c82 10%, #49a09d 90%); /* Opera 11.10+ */
-  background:         linear-gradient(90deg, #5f2c82 10%, #49a09d 90%); /* W3C */
-  border-radius: 28px;
-  font-family: Arial;
-  color: #ffffff;
-  font-size: 20px;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
-}
-.btn:hover {
-  background: #CD919E;
-  background-image: -webkit-linear-gradient(top, #3cf6fc, #3498db);
-  background-image: -moz-linear-gradient(top, #3cf6fc, #3498db);
-  background-image: -ms-linear-gradient(top, #3cf6fc, #3498db);
-  background-image: -o-linear-gradient(top, #3cf6fc, #3498db);
-  background-image: linear-gradient(to bottom, #3cf6fc, #3498db);
-  text-decoration: none;
-}
- </style>
+</style>
 </head>
 <body>
 <nav>
@@ -78,36 +43,11 @@ ul {
  <br>
  <title>Portafolio</title>
 <h1>PORTAFOLIO </h1><br>
-<article id="content"><table></article>
-<tr>
-  <th><i class="fa fa-desktop"></i>
-  <th><i class="fa fa-rocket"></i>
-  <th><i class="fa fa-camera-retro"></i>
-  <th><i class="fa fa-certificate"></i>
-</th>
+<div id="lightgallery">
 
-</tr>
-<tr>
-  <th>LOGOS</th>
-  <th>PROJECTS</th>
-  <th>EVENTS</th>
-  <th>CERTIFICATES</th>
-</tr>
+<a href="http://flic.kr/p/y272z2" height="200px">
+ <img src="http://farm6.staticflickr.com/5718/21449229758_0e23b4bdcc_m.jpg" width="240" height="185" alt="LOGOgrande">
 
-<br>
-<td><img src="http://camilacovuccia.smugmug.com/My-First-Gallery/i-BZx2nmN/0/S/sofia%20N%20O-S.png"></td>
- <td><img src="http://camilacovuccia.smugmug.com/My-First-Gallery/i-fBnsSGJ/0/S/Screen%20Shot%202015-08-26%20at%202.19.43%20PM-S.png"></td>
-  <td><img src="http://camilacovuccia.smugmug.com/My-First-Gallery/i-jzwZLkp/0/S/ESTE-S.png"> </td>
-  <td><img src="http://camilacovuccia.smugmug.com/My-First-Gallery/i-9S54BsS/0/S/Screen%20Shot%202015-08-26%20at%2012.21.23%20PM-S.png"></td>
-</tr>
-<br>
-<tr>
-  <td><a class="btn" href="contact.html">Contact me now!</a></td>
-  <td><a class="btn" href="contact.html">Contact me now!</a></td>
-  <td><a class="btn" href="contact.html">Contact me now!</a></td>
-  <td><a class="btn" href="contact.html">Contact me now!</a></td>
-</tr>
-<br>
 
 <br>
   </table>
