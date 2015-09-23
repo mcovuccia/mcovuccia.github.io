@@ -11,7 +11,13 @@
       
       
     } 
+       h3 {
+      color: #E4287C;
+      font: 90px 'Londrina Outline', normal;
+      text-align: center;
       
+      
+    } 
        h2 {
       color: #33CCFF;
       font: 50px 'Otro', sans-serif;
@@ -32,13 +38,13 @@ nav a{
    
 }
 nav a:link, a:link{
-    color: #FFFDE7;
+    color: #E4287C;
     position: center;
 }
 
 /* visited link */
 nav a:visited, a:visited{
-    color: #FFFDE7;
+    color: #E4287C;
     position: center;
 }
 
@@ -130,7 +136,7 @@ body{
 }
 
 .jumbotron {
-  background-image:url('http://goo.gl/04j7Nn');
+  background-image:url('http://cdn.peoplevine.com/media/153/7131a2be-01d5-4bae-83c5-56b9d960d019.jpg');
   height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
