@@ -3,14 +3,6 @@
    text-align: center;
    position:center;
    }
-   
-body{
-      background-color: pink; 
-         color: #FFFDE7;
-         font-family: 'Quicksand', normal;
-            background-image: url(https://covuccia.smugmug.com/M/i-2qqFWsf/0/X2/05.%20Yoga-X2.png);
-      background-size: cover;
-    }
 
    h1 {
       color: #FFFDE7;
@@ -113,7 +105,7 @@ iframe {
 }
 
 
--------------------------------------
+
 
 body{
       background-color: black; 
@@ -175,12 +167,12 @@ body{
 }
 
 .neighborhood-guides{
-    background-color: #efefef;
+    background-color: black;
     border-bottom: 1px solid #dbdbdb;
 }
 
 .neighborhood-guides h2{
-    color: #393c3d;
+    color: white;
     font-size: 24px;
 
 }
