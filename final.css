@@ -1,3 +1,120 @@
+<!doctype html>
+    html{ 
+   text-align: center;
+   position:center;
+   }
+   
+body{
+      background-color: pink; 
+         color: #FFFDE7;
+         font-family: 'Quicksand', normal;
+            background-image: url(https://covuccia.smugmug.com/M/i-2qqFWsf/0/X2/05.%20Yoga-X2.png);
+      background-size: cover;
+    }
+
+   h1 {
+      color: #FFFDE7;
+      font: 90px 'Londrina Outline', normal;
+      text-align: center;
+      
+      
+    } 
+      
+       h2 {
+      color: #FFFDE7;
+      font: 50px 'Otro', sans-serif;
+      text-align: center;
+       }
+      P {
+        text-align: center;
+         
+      }
+     nav {
+  position: absolute center;
+  }
+  
+ /* unvisited link */
+nav a{
+    position: center;
+   
+}
+nav a:link, a:link{
+    color: #FFFDE7;
+    position: center;
+}
+
+/* visited link */
+nav a:visited, a:visited{
+    color: #FFFDE7;
+    position: center;
+}
+
+/* mouse over link */
+nav a:hover, a:hover{
+    color: #FFFDE7;
+    position: center;
+}
+
+/* selected link */
+nav a:active, a:active{
+    color: white ;
+    position: center;
+} 
+
+footer, hr,img {
+   position: center;
+}
+
+section {
+   
+height: 250px;
+width: 100%;
+  }
+  
+section {
+   background: transparent linear-gradient(90deg, rgba(82, 103, 168, 0.56) 10%, rgba(136, 86, 183, 0.47) 90%) repeat scroll 0% 0%;
+height: 250px;
+width: 100%;
+  }
+  
+ section a {
+    color: #FFF;
+    border: 1px solid #FFF;
+    padding: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 3px;
+}
+  
+
+footer, hr{
+   position: center;
+}
+ nav {
+  position: absolute center;
+  }
+table {
+   position: center;
+}
+#content {
+   margin: 0px auto;
+   width: 50%;
+}
+#content table {
+   width: 100%;
+   text-align: center;
+}
+iframe {
+    position:center;
+}
+#document{
+    position:center;
+
+}
+
+
+-------------------------------------
+
 body{
       background-color: black; 
          color: #FFFDE7;
