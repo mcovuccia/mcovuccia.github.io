@@ -5,7 +5,9 @@
   <link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="style.css">
-  
+  <title>Search Box Example 1</title>
+<meta name="ROBOTS" content="NOINDEX, NOFOLLOW" />
+<!-- CSS styles for standard search box -->
  <link href='https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.2.1/css/lightgallery.css' rel="stylesheet">
   <link href='style.css' rel='stylesheet'>
   <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
@@ -16,6 +18,52 @@
     });
 </script>    
 <style>
+	#tfheader{
+		background-color:#c3dfef;
+	}
+	#tfnewsearch{
+		float:right;
+		padding:20px;
+	}
+	.tftextinput{
+		margin: 0;
+		padding: 5px 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		border:1px solid #0076a3; border-right:0px;
+		border-top-left-radius: 5px 5px;
+		border-bottom-left-radius: 5px 5px;
+	}
+	.tfbutton {
+		margin: 0;
+		padding: 5px 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		outline: none;
+		cursor: pointer;
+		text-align: center;
+		text-decoration: none;
+		color: #ffffff;
+		border: solid 1px #0076a3; border-right:0px;
+		background: #0095cd;
+		background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+		background: -moz-linear-gradient(top,  #00adee,  #0078a5);
+		border-top-right-radius: 5px 5px;
+		border-bottom-right-radius: 5px 5px;
+	}
+	.tfbutton:hover {
+		text-decoration: none;
+		background: #007ead;
+		background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
+		background: -moz-linear-gradient(top,  #0095cc,  #00678e);
+	}
+	/* Fixes submit button height problem in Firefox */
+	.tfbutton::-moz-focus-inner {
+	  border: 0;
+	}
+	.tfclear{
+		clear:both;
+	}
     #content {
   margin: 0px auto;
   width: 50%;}
@@ -34,6 +82,8 @@ body{
            
     }
  h1 {
+  background-image: url(http://blog.willis.com/wp-content/uploads/2014/10/beach-vacation_645x400.jpg);
+      background-size: cover;
       color: #FFFDE7;
       font: 100px 'Londrina Outline', normal;
       text-align: center;
@@ -41,7 +91,11 @@ body{
       
     } 
    h2{background-image: url(http://blog.willis.com/wp-content/uploads/2014/10/beach-vacation_645x400.jpg);
-      background-size: cover;}
+      background-size: cover;
+     color: #FFFDE7;
+      font: 100px 'Londrina Outline', normal;
+      text-align: center;
+   }
      h6 {
       
     color: white;
@@ -67,13 +121,13 @@ text-shadow:   1px 1px 0 #000;
 <body>
 
 <nav>
-<img src="http://covuccia.smugmug.com/M/i-qTJ5QmC/0/Ti/home160-Ti.png"width="50" height="50">
-<img src="http://covuccia.smugmug.com/M/i-2WKBn6t/0/Th/Untitled-5-Th.png"width="50" height="50">
- <img src="http://camilacovuccia.smugmug.com/My-First-Gallery/i-3xCJHFK/0/Ti/inspiration-3-Ti.png"width="50" height="50"></a>|
-<img src="http://covuccia.smugmug.com/M/i-785c35M/0/Ti/ESTA%20GIRL-Ti.png"width="50" height="50"></a>|
-<img src="http://camilacovuccia.smugmug.com/My-First-Gallery/i-C4Vz23f/0/Ti/label37-Ti.png"width="50" height="50"></a>|
- <img src="http://carlosmancin.smugmug.com/My-First-Gallery/i-kv8D4Gk/0/Th/curriculum3-Th.png"width="50" height="50"></a>|
-<img src="http://covuccia.smugmug.com/M/i-DRCPhjT/0/Th/CONTA111111CT-Th.png" width="50" height="50"></a> 
+<!-- HTML for SEARCH BAR -->
+	<div id="tfheader">
+		<form id="tfnewsearch" method="get" action="http://www.google.com">
+		        <input type="text" class="tftextinput" name="q" size="21" maxlength="120"><input type="submit" value="search" class="tfbutton">
+		</form>
+	<div class="tfclear"></div>
+	</div>
 
 </nav>
 <h1>WELCOME TO</h1>
