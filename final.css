@@ -5,7 +5,7 @@
    }
 
    h1 {
-      color: #FFFDE7;
+      color: #33CCFF;
       font: 90px 'Londrina Outline', normal;
       text-align: center;
       
@@ -13,12 +13,13 @@
     } 
       
        h2 {
-      color: #FFFDE7;
+      color: #33CCFF;
       font: 50px 'Otro', sans-serif;
       text-align: center;
        }
       P {
         text-align: center;
+        color: #33CCFF;
          
       }
      nav {
